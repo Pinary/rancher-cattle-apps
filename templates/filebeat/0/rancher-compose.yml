@@ -5,6 +5,16 @@
   minimun_rancher_version: v1.0.1
   maximun_rancher_version: v1.6.14
   upgrade_from: "1.0.0"
+  questions:
+    - variable: mysql_lb_port
+      description: "Set to 'yes' to allow the container to be started in every host."
+      label: "Running in every host"
+      type: "enum"
+      options:
+        - "yes"
+        - "no"
+      default: "no"
+      required: false
  
 version: '2'
 services:

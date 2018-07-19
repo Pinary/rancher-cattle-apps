@@ -19,3 +19,7 @@ services:
     - /var/filebeat.yml
     labels:
       servicename: filebeat
+	  {{- if eq .Values.run_in_every_host "yes"}}
+      io.rancher.container.pull_image: always
+	  io.rancher.scheduler.global: 'true'
+	  {{- end}}
