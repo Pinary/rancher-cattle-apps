@@ -1,5 +1,5 @@
-name: Filebeat
+name: MySQL
 description: |
-  Filebeat — an open-source log collect
+  MySQL — an open-source relational database management system (RDBMS)
 version: v0.0.1
 category: Databases
