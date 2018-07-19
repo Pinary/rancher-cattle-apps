@@ -21,5 +21,7 @@ services:
       servicename: filebeat
 {{- if eq .Values.run_in_every_host "yes"}}
       io.rancher.container.pull_image: always
-	  io.rancher.scheduler.global: 'true'
+{{- end}}
+{{- if eq .Values.run_in_every_host "yes"}}
+      io.rancher.scheduler.global: 'true'
 {{- end}}
