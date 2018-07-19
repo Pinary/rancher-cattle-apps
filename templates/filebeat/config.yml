@@ -1,0 +1,7 @@
+name: filebeat
+description: filebeat.
+version: 0.0.1-rancher1
+category: Toy Apps2222
+maintainer: Anson Lu <262739490@qq.com>
+license: Apache2
+projectURL: https://github.com/Pinary/rancher-cattle-apps
