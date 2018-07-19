@@ -1,0 +1,8 @@
+name: RMS-SC-Service
+description: RMS 测试微服务
+
+version: 0.0.1
+category: App
+maintainer: "Anson Lu <lupc@safewaychina.com>"
+license: MIT
+projectURL: https://github.com/Pinary/rancher-cattle-apps.git
