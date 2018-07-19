@@ -1,4 +1,4 @@
-name: Filebeat-Alpine
+name: Filebeat-SW
 description: Log Shipper to logstash
 
 version: 6.2.3
