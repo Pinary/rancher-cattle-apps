@@ -1,18 +1,12 @@
-# MySQL
-
-## What is MySQL?
-
-MySQL is the world's most popular open source database. With its proven performance, reliability and ease-of-use, MySQL has become the leading database choice for web-based applications, covering the entire range from personal projects and websites, via e-commerce and information services, all the way to high profile web properties including Facebook, Twitter, YouTube, Yahoo! and many more.
-
-For more information and related downloads for MySQL Server and other MySQL products, please visit [www.mysql.com](http://www.mysql.com).
-
-## Services
-
-Includes the following services:
-- Load Balancer
-- MySQL Server
-- MySQL Data (sidekick to the server)
-
-## Usage
-
-The minimum configuration option(s) required to launch the stack is the MySQL Public LB Port and MySQL Root Password. See the description of each option for more information.
+### Log Shipper to logstash
+* Before choose your filebeat version to launch, please make sure Beats [Support Matrix](https://www.elastic.co/support/matrix#matrix_compatibility)
+* Support ship APP log and Nginx log or one of both to Logstash
+* Let it default if you only have one log type of both APP log and Ningx log.
+* Also you can put all any type log(include app/nginx/other type) to Application Log Path with below pattern.
+```bash
+eg:
+${HOME_PATH}/app/logs/xxx.log
+${HOME_PATH}/nginx/logs/xxx.log
+${HOME_PATH}/others/logs/xxx.log
+```
+And set Application Log Path as your `${HOME_PATH}`

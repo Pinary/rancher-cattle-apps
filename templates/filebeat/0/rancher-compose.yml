@@ -1,9 +1,10 @@
 .catalog:
-  name: "mysql"
-  version: "v0.0.1"
-  description: "A recommended stack for the MySQL RDBMS."
-  uuid: mysql-0
-  minimum_rancher_version: v1.0.0
+  name: "filebeat-alpine"
+  version: "6.2.3"
+  description: "Catalog's rancher-compose"
+  minimun_rancher_version: v1.0.1
+  maximun_rancher_version: v1.6.14
+  upgrade_from: "1.0.0"
  
 version: '2'
 services:

@@ -1,8 +1,8 @@
 name: Filebeat-Alpine
 description: Log Shipper to logstash
 
-version: 6.1.1
+version: 6.2.3
 category: Shipper
-maintainer: "Eason Lau <eason.lau02@hotmail.com>"
+maintainer: "Anson Lu <lupc@safewaychina.com>"
 license: MIT
-projectURL: https://github.com/easonlau02/filebeat-alpine
+projectURL: https://github.com/Pinary/rancher-cattle-apps.git
